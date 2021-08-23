@@ -448,7 +448,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>make me as admin first.</b>",
+                        "<b>Promote me as admin and Start voice chat.</b>",
                     )
                     return
                 try:

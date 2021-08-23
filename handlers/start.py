@@ -69,7 +69,7 @@ async def start_(client: Client, message: Message):
      disable_web_page_preview=True
     )
 
-@Client.on_callback_query(filters.regex("cbgetlyrics"))
+@Client.on_callback_query(filters.regex("cbhelpmenu"))
 async def cbgetlyrics(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>⚔️  Help For Lyrics Plugin</b>

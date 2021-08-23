@@ -46,7 +46,7 @@ async def start_(client: Client, message: Message):
                         "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", url="https://telegra.ph/VEEZ-MUSIC-GUIDE-07-27"
+                         "📚 Commands", url="https://telegra.ph/Group-Singer-Bot-08-23"
                     ),
                     InlineKeyboardButton(
                         "💝 Donate", url=f"https://t.me/{OWNER_NAME}")

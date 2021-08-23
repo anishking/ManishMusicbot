@@ -70,7 +70,7 @@ async def start_(client: Client, message: Message):
     )
 
 @Client.on_callback_query(filters.regex("cbhelpmenu"))
-async def cbgetlyrics(_, query: CallbackQuery):
+async def cbhelpmenu(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>⚔️  Help For Lyrics Plugin</b>
         

@@ -17,6 +17,7 @@ TIME_DURATION_UNITS = (
     ('sec', 1)
 )
 
+async def callback_data(_, query: callback_data):
 async def _human_time_duration(seconds):
     if seconds == 0:
         return 'inf'

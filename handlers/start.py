@@ -69,6 +69,29 @@ async def start_(client: Client, message: Message):
      disable_web_page_preview=True
     )
 
+@Client.on_callback_query(filters.regex("cbgetlyrics"))
+async def cbgetlyrics(_, query: CallbackQuery):
+    await query.edit_message_text(
+        f"""<b>⚔️  Help For Lyrics Plugin</b>
+        
+**💡 Feature:** Get Lyrics For Provided Song Name!
+
+**📊 Usage:**
+    - Send Your Song Name with /lyrics  command.
+    
+**📝 Example:** /lyrics lelena 
+
+Made  ❤️ by **@{UPDATES_CHANNEL}**""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "◀️ Back ◀️", callback_data="cbhelpmenu"
+                    )
+                ]
+            ]
+        )
+    )
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):

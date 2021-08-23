@@ -61,7 +61,7 @@ async def start_(client: Client, message: Message):
                         "🌐 Wiki's Page", url="https://github.com/levina-lab/veezmusic/wiki/Veez-Music-Wiki's")
                 ],[
                     InlineKeyboardButton(
-                        "Uptime ✅", url="hh"
+                        "Loaded 🔷", callback_data="cbhelpmenu"
                     )
                 ]
             ]

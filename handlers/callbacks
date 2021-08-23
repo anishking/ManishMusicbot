@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
 
-from callsmusic.callsmusic import client as USER
 from config import BOT_USERNAME, UPDATES_CHANNEL
 
 # close calllback

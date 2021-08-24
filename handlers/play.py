@@ -504,7 +504,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ **lagu dengan durasi lebih dari** `{DURATION_LIMIT}` **menit tidak dapat diputar!**"
+                f"❌ **This song is longer Then ** `{DURATION_LIMIT}` **minutes**"
             )
         keyboard = InlineKeyboardMarkup(
             [

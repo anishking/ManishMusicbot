@@ -136,14 +136,6 @@ async def help_(client: Client, message: Message):
 /auth - authorized user for using music bot
 /deauth - unauthorized for using music bot
 /musicplayer (on / off) - disable / enable music player in your group
-\n🎧 channel streaming commands:
-\n/cplay - stream music on channel voice chat
-/cplayer - show the song in streaming
-/cpause - pause the streaming music
-/cresume - resume the streaming was paused
-/cskip - skip streaming to the next song
-/cend - end the streaming music
-/admincache - refresh the admin cache
 \n🧙‍♂️ command for sudo users:
 \n/userbotleaveall - order the assistant to leave from all group
 /gcast - send a broadcast message trought the assistant

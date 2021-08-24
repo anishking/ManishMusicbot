@@ -454,7 +454,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "🤖: i'm joined to this group for playing music on voice chat"
+                        message.chat.id, "🤖: i joined to this group for playing music on voice chat"
                     )
                     await lel.edit(
                         "<b>helper userbot joined your chat</b>",
@@ -723,7 +723,7 @@ async def lol_cb(b, cb):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         if (dur / 60) > DURATION_LIMIT:
-             await cb.message.edit(f"❌ Lagu dengan durasi lebih dari `{DURATION_LIMIT}` menit tidak dapat diputar.")
+             await cb.message.edit(f"❌ Your song is more then `{DURATION_LIMIT}` minutes.")
              return
     except:
         pass
@@ -829,7 +829,7 @@ async def ytplay(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "🤖: i'm joined to this group for playing music in voice chat"
+                        message.chat.id, "🤖: i joined to this group for playing music in voice chat"
                     )
                     await lel.edit(
                         "<b>💡 helper userbot succesfully joined your chat</b>",

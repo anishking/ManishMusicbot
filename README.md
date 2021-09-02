@@ -89,5 +89,5 @@ For deployment on railway you can see the full of [Necessary Variables Here](htt
 - [Manish](https://t.me/Manish_mod) Dev
 
 
-### Support & Updates 🎑
-<a href="https://t.me/Sinx_support"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/sinx_updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
+

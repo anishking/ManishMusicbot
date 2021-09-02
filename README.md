@@ -79,7 +79,7 @@ The easy way to host this bot, deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamSinx/SinnersMusic)
 
 ## Railway Deployment 🚄
-For deployment on railway you can see the full of [Necessary Variables Here](https://github.com/TeamSinx/SinnersMusic/blob/main/example.env), make sure you fill all of it.
+For deployment on railway you can see the full of [Necessary Variables Here](https://github.com/anishking/ManishMusicbot/blob/main/example.env), make sure you fill all of it.
 
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TeamSinx/SinnersMusic&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT,THUMB_IMG)
 
@@ -87,7 +87,3 @@ For deployment on railway you can see the full of [Necessary Variables Here](htt
 - [Manish_mod_vc_bot](https://t.me/Manish_mod): Owner
 - [Mamish_mod_vc](https://t.me/Manish_mod): Dev
 - [Manish](https://t.me/Manish_mod) Dev
-
-
-
-

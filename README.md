@@ -1,4 +1,4 @@
-<h2 align="centre">✙ SinX Music ✙</h2>
+<h2 align="centre">✙ 5G vc Music ✙</h2>
 
 ### ✙ Sinners Music Bot Allows You To Play Any Music In A Telegram Voice Chat In An Fun,Evil Way.
 
@@ -84,9 +84,9 @@ For deployment on railway you can see the full of [Necessary Variables Here](htt
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TeamSinx/SinnersMusic&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT,THUMB_IMG)
 
 ### Special Credits 💖
-- [Lucifer](https://t.me/lucifer_sinx): Owner
-- [Mrunal](https://t.me/Godmrunal): Dev
-- [Snoopy](https://t.me/sed_sinx) Dev
+- [Manish_mod_vc_bot](https://t.me/Manish_mod): Owner
+- [Mamish_mod_vc](https://t.me/Manish_mod): Dev
+- [Manish](https://t.me/Manish_mod) Dev
 
 
 ### Support & Updates 🎑

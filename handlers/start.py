@@ -57,9 +57,9 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
-                    InlineKeyboardButton(
-                        "📩 Support", url="https://t.me/AstroSupportRobot")
-                ],[
+
+       
+
                     InlineKeyboardButton(
                         "Loaded 🔷", callback_data="cbhelpmenu"
                     )

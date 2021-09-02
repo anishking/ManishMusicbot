@@ -19,7 +19,7 @@ f"""
 ❍ @{GROUP_SUPPORT}
 📣 updates channel:
 ❍ @{UPDATES_CHANNEL}\n
-💝 donation page:
-⊛ You can donate sincerely to us through our donation page which you can visit via the following link: https://trakteer.id/levina-shavila-dp0ju**
+
+
 """
   ]
